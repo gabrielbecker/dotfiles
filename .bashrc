@@ -78,18 +78,16 @@ alias l='ls -CF'
 
 alias timestamp='ts "[%Y-%m-%d %H:%M:%.S]"'
 
-alias e='emacs'
 alias v='vim'
 alias p='python3'
 
-alias install='sudo dnf install -y'
+alias install='sudo apt install -y'
 function clone {
-    ( cd ~/ && git clone git@github.com:boppreh/$1 )
+    ( cd ~/ && git clone git@github.com:gabrielbecker/$1 )
 }
 
 PYTHONSTARTUP=~/.pythonrc.py
 
-export GOPATH=$HOME/go
 
 export EDITOR=vim
 

@@ -7,3 +7,9 @@ __pycache__/
 
 # Test C/C++ files.
 a.out
+
+# Eclipse files
+.project
+.classpath
+.settings/
+
